@@ -41,14 +41,14 @@ Your private keys live **only on the card**.
 ## Security design
 
 ```
-┌─────────────────── microSD card ───────────────────┐
+┌─────────────────── microSD card ────────────────────┐
 │  main.key.age          ← age identity               │
 │    └── passphrase-encrypted by age itself           │
 │  signing.key.pem       ← ML-DSA-65 private key      │
 │    └── AES-256-CBC PKCS#8, passphrase by openssl    │
 │  main.pub              ← age public recipient (copy)│
-│  signing.pub.pem       ← ML-DSA public key   (copy)│
-└────────────────────────────────────────────────────┘
+│  signing.pub.pem       ← ML-DSA public key   (copy) │
+└─────────────────────────────────────────────────────┘
 
 ~/.config/pqcrypt/
   main.pub              ← cached for offline encryption
