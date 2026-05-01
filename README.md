@@ -6,7 +6,6 @@
 [![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)](https://python.org)
 [![PyPI Version](https://img.shields.io/pypi/v/pqcrypt)](https://pypi.org/project/pqcrypt/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![CI](https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/pqcrypt/actions/workflows/ci.yml/badge.svg)](https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/pqcrypt/actions)
 [![No dependencies](https://img.shields.io/badge/dependencies-none-brightgreen.svg)](#requirements)
 [![Platforms](https://img.shields.io/badge/platform-macOS%20%7C%20Ubuntu-lightgrey.svg)](#requirements)
 
