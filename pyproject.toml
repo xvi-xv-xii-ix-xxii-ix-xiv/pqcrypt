@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pqcrypt"
+version = "1.0.0"
+description = "Post-Quantum file encryption & signing tool (ML-KEM + ML-DSA)."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "xvi-xv-xii-ix-xxii-ix-xiv", email = "xvi.xv.xii.ix.xxii.ix.xiv@gmail.com" },
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security :: Cryptography",
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/pqcrypt"
+Repository = "https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/pqcrypt.git"
+Issues = "https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/pqcrypt/issues"
+
+[project.scripts]
+pqcrypt = "pqcrypt:main"
+
+[tool.setuptools]
+py-modules = ["pqcrypt"]
